@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 640px;
+}
+.container .result {
+    height: 70px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.container .value {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 12px 0 12px;
+}
+.container .value .answers {
+    font-size: 14px;
+    font-weight: 400;
+}
+.container .operation {
+    float: right;
+    font-size: 23px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+.container .display {
+    display: inline;
+}
+.container .dp-none {
+    display: none;
+}
+.container .button-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+}
+.container .btn-main {
+    margin: 0 4px;
+    width: calc(100%/7 - 8px);
+    margin-bottom: 8px;
+    background-color: #f1f3f4;
+    padding: 8px 8px;
+    border-radius: 4px;
+    border: 2px solid #f1f3f4;
+    cursor: pointer;
+}
+.container .btn-main:hover {
+    opacity: 0.9;
+}
+.container .btn-active {
+    background-color: #dadce0;
+    border: 2px solid #dadce0;
+
+}
